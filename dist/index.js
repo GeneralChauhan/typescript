@@ -27,3 +27,7 @@ const user = {
     id: 1,
     name: "Abhinab"
 };
+//Type Assertion
+let cid = 1;
+//let customerId = <number>cid;
+let customerId = cid;
