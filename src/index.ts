@@ -7,3 +7,7 @@ let x : any = "Hi";
 // Arrays
 let numyArray : number[] = [1,2,3,4,5];
 let anyArray : any[] = [1,2,3,4,5];
+
+
+//Tuple
+let person : [string, number, boolean] = ["Abhinab", 18, true];
