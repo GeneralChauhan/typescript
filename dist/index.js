@@ -39,3 +39,7 @@ function addNum(x, y) {
 function log(message) {
     console.log(message);
 }
+const user1 = {
+    id: 1,
+    name: "Abhinab"
+};
