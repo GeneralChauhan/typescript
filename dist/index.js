@@ -56,3 +56,10 @@ class Person {
     }
 }
 const abhinab = new Person(1, "Abhinab");
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(3, "Abhinab", "Developer");
