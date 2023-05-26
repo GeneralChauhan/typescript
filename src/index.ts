@@ -16,3 +16,7 @@ let person : [string, number, boolean] = ["Abhinab", 18, true];
 let employee : [string, number][];
 
 employee=[[ "Abhinab", 18],[ "Young Abhinab", 10],[ "Old Abhinab", 38]];
+
+//Unions
+let ids : string | number = 5;
+ids = "5";
