@@ -20,3 +20,21 @@ employee=[[ "Abhinab", 18],[ "Young Abhinab", 10],[ "Old Abhinab", 38]];
 //Unions
 let ids : string | number = 5;
 ids = "5";
+
+//enums
+enum Direction1 {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+//Objects
+type User = {
+    id: number,
+    name: string
+}
+const user: User ={ 
+    id: 1,
+    name: "Abhinab"
+}

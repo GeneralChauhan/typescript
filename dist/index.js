@@ -15,3 +15,15 @@ employee = [["Abhinab", 18], ["Young Abhinab", 10], ["Old Abhinab", 38]];
 //Unions
 let ids = 5;
 ids = "5";
+//enums
+var Direction1;
+(function (Direction1) {
+    Direction1[Direction1["Up"] = 0] = "Up";
+    Direction1[Direction1["Down"] = 1] = "Down";
+    Direction1[Direction1["Left"] = 2] = "Left";
+    Direction1[Direction1["Right"] = 3] = "Right";
+})(Direction1 || (Direction1 = {}));
+const user = {
+    id: 1,
+    name: "Abhinab"
+};
