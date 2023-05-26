@@ -31,3 +31,11 @@ const user = {
 let cid = 1;
 //let customerId = <number>cid;
 let customerId = cid;
+//functions
+function addNum(x, y) {
+    console.log(x + y);
+    return (x + y);
+}
+function log(message) {
+    console.log(message);
+}

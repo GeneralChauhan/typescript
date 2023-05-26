@@ -43,3 +43,17 @@ let cid : any = 1;
 
 //let customerId = <number>cid;
 let customerId = cid as number;
+
+
+//functions
+function addNum(x:number, y:number): number{
+    
+    console.log(x+y);
+    return(x+y);
+}
+function log(message:string | number):void{
+    console.log(message);
+}
+
+
+
