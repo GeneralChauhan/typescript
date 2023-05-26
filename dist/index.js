@@ -69,3 +69,5 @@ function getArray(items) {
 }
 let numArray = getArray([1, 2, 3, 4]);
 let strArray = getArray(["Abhinab", "Abhinab", "Abhinab"]);
+//Basic Type Script Done
+//Next up is Matt Paddock's tutorial on TypeScript

@@ -118,3 +118,5 @@ let numArray = getArray<number>([1,2,3,4]);
 let strArray = getArray<string>(["Abhinab", "Abhinab", "Abhinab"]);
 
 
+//Basic Type Script Done
+//Next up is Matt Paddock's tutorial on TypeScript
